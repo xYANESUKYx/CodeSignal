@@ -14,32 +14,32 @@ public class Add_test {
 	}
 	
 	@Test
-	public void test1_Ejercicio_1(){
-		assertEquals(3, add.Ejercicio_1(1, 2));
+	public void test1(){
+		assertEquals(3, add.solution(1, 2));
 	}
 	
 	@Test
-	public void test2_Ejercicio_1(){
-		assertEquals(1000, add.Ejercicio_1(0, 1000));
+	public void test2(){
+		assertEquals(1000, add.solution(0, 1000));
 	}
 	
 	@Test
-	public void test3_Ejercicio_1(){
-		assertEquals(-37, add.Ejercicio_1(2, -39));
+	public void test3(){
+		assertEquals(-37, add.solution(2, -39));
 	}
 	
 	@Test
-	public void test4_Ejercicio_1(){
-		assertEquals(199, add.Ejercicio_1(99, 100));
+	public void test4(){
+		assertEquals(199, add.solution(99, 100));
 	}
 	
 	@Test
-	public void test5_Ejercicio_1(){
-		assertEquals(0, add.Ejercicio_1(-100, 100));
+	public void test5(){
+		assertEquals(0, add.solution(-100, 100));
 	}
 	
 	@Test
-	public void test6_Ejercicio_1(){
-		assertEquals(-2000, add.Ejercicio_1(-1000, -1000));
+	public void test6(){
+		assertEquals(-2000, add.solution(-1000, -1000));
 	}
 }
